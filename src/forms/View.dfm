@@ -1,0 +1,66 @@
+object fmView: TfmView
+  Left = 0
+  Top = 0
+  Caption = 'View'
+  ClientHeight = 168
+  ClientWidth = 422
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnBottom: TPanel
+    Left = 0
+    Top = 138
+    Width = 422
+    Height = 30
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 0
+    ExplicitTop = 221
+    ExplicitWidth = 626
+    object btOk: TButton
+      AlignWithMargins = True
+      Left = 263
+      Top = 3
+      Width = 75
+      Height = 24
+      Align = alRight
+      Caption = 'Ok'
+      ModalResult = 1
+      TabOrder = 0
+      ExplicitLeft = 467
+      ExplicitTop = 6
+    end
+    object btCancel: TButton
+      AlignWithMargins = True
+      Left = 344
+      Top = 3
+      Width = 75
+      Height = 24
+      Align = alRight
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 1
+      ExplicitLeft = 528
+      ExplicitTop = 6
+      ExplicitHeight = 25
+    end
+  end
+  object mmView: TMemo
+    Left = 0
+    Top = 0
+    Width = 422
+    Height = 138
+    Align = alClient
+    ScrollBars = ssBoth
+    TabOrder = 1
+    ExplicitWidth = 626
+    ExplicitHeight = 221
+  end
+end

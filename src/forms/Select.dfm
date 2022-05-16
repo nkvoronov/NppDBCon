@@ -1,0 +1,51 @@
+object fmSelect: TfmSelect
+  Left = 0
+  Top = 0
+  Caption = 'Select'
+  ClientHeight = 153
+  ClientWidth = 405
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbConnections: TCheckListBox
+    Left = 0
+    Top = 0
+    Width = 405
+    Height = 123
+    OnClickCheck = lbConnectionsClickCheck
+    Align = alClient
+    ItemHeight = 13
+    TabOrder = 0
+    OnDblClick = lbConnectionsDblClick
+    ExplicitTop = -3
+  end
+  object pnBottom: TPanel
+    Left = 0
+    Top = 123
+    Width = 405
+    Height = 30
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 1
+    object btOk: TButton
+      AlignWithMargins = True
+      Left = 327
+      Top = 3
+      Width = 75
+      Height = 24
+      Align = alRight
+      Caption = 'Ok'
+      ModalResult = 1
+      TabOrder = 0
+    end
+  end
+end

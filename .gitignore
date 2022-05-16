@@ -1,0 +1,10 @@
+*.stat
+*.dsk
+*.~dsk
+*.identcache
+*.local
+*.dcu
+*.exe
+*.dll
+*.res
+*.skincfg
